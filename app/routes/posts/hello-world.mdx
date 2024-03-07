@@ -1,0 +1,89 @@
+---
+title: "Honox Blog Templete"
+description: "this is a honox blog templete"
+date: "2024/03/07"
+published: true
+---
+
+# Honox Blog Templete 
+
+This is a template repository for creating a blog with Honox. It comes pre-configured with settings and configurations the author found cumbersome while creating a blog with Honox, making it easier to create your own blog.
+
+Note: This is not an official product but an unofficial one.
+
+## Syntax Highlight
+
+### TypeScript
+
+```ts
+interface User {
+  name: string;
+  id: number;
+}
+ 
+class UserAccount {
+  name: string;
+  id: number;
+ 
+  constructor(name: string, id: number) {
+    this.name = name;
+    this.id = id;
+  }
+}
+ 
+const user: User = new UserAccount("Murphy", 1);
+```
+
+### Go
+
+```go
+package main
+
+import "fmt"
+
+type User struct {
+    Name string
+    ID   int
+}
+
+func NewUser(name string, id int) *User {
+    return &User{
+        Name: name,
+        ID:   id,
+    }
+}
+
+func main() {
+    user := NewUser("Murphy", 1)
+    fmt.Printf("User Name: %s, User ID: %d\n", user.Name, user.ID)
+}
+
+```
+
+### Rust
+
+```rust
+struct User {
+    name: String,
+    id: i32,
+}
+
+impl User {
+    fn new(name: &str, id: i32) -> User {
+        User {
+            name: name.to_string(),
+            id,
+        }
+    }
+}
+
+fn main() {
+    let user = User::new("Murphy", 1);
+    println!("User Name: {}, User ID: {}", user.name, user.id);
+}
+```
+
+## Connection
+
+- [Honox](https://github.com/honojs/honox)
+- [Hono](https://github.com/honojs/hono)
