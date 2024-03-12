@@ -11,7 +11,8 @@
     "lint:fix": "biome check --apply .",
     "check": "biome check --apply .",
     "check:ci": "biome ci .",
-    "typecheck": "tsc -p . --noEmit"
+    "typecheck": "tsc -p . --noEmit",
+    "create:post": "node ./app/libs/posts/generate-post.mjs"
   },
   "dependencies": {
     "@mdx-js/rollup": "^3.0.1",
