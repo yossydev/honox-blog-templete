@@ -23,7 +23,7 @@
     "remark-mdx-frontmatter": "^4.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.5.3",
+    "@biomejs/biome": "v1.6.1",
     "@cloudflare/workers-types": "^4.20240222.0",
     "@hono/vite-cloudflare-pages": "^0.2.5",
     "@hono/vite-ssg": "^0.1.0",

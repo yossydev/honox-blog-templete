@@ -1,4 +1,4 @@
-import { FC } from "hono/jsx";
+import type { FC } from "hono/jsx";
 import { LINK } from "../constants";
 
 const SnsButton: FC<{ title: string }> = ({ title }) => {
