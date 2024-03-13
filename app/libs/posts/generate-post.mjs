@@ -1,6 +1,6 @@
-import { readFile, writeFile } from "fs";
-import { join, resolve } from "path";
-import { createInterface } from "readline";
+import { readFile, writeFile } from "node:fs";
+import { join, resolve } from "node:path";
+import { createInterface } from "node:readline";
 
 const MIN_TITLE_LENGTH = 1;
 const MIN_EMOJI_LENGTH = 1;
