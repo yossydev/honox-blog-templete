@@ -29,8 +29,6 @@ export default jsxRenderer(({ children, title, description }) => {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.css"
         />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" />
-        <script>hljs.highlightAll();</script>
       </head>
       <body class="main-container">
         <header class="bg-blue-500">
