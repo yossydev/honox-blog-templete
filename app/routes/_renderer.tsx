@@ -1,6 +1,6 @@
 import { jsxRenderer } from "hono/jsx-renderer";
-import { LINK } from "../constants";
 import { Script } from "honox/server";
+import { LINK } from "../constants";
 
 export default jsxRenderer(({ children, title, description }) => {
   const _title = title ?? "Blog Name";
