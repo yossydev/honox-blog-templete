@@ -11,7 +11,7 @@ This is a template repository that allows you to easily create a blog site using
 
 ## Example
 
-https://github.com/yossydev/blog
+- https://github.com/yossydev/blog
 
 ## Getting Started
 
