@@ -18,7 +18,7 @@
     "@mdx-js/rollup": "^3.0.1",
     "highlight.js": "^11.9.0",
     "hono": "^4.0.9",
-    "honox": "^0.1.6",
+    "honox": "^0.1.9",
     "remark-frontmatter": "^5.0.0",
     "remark-mdx-frontmatter": "^4.0.0"
   },
