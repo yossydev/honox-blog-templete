@@ -9,6 +9,10 @@ This is a template repository that allows you to easily create a blog site using
 - [highlight.js](https://highlightjs.org/): Highlight.js is a syntax highlighter written in JavaScript. It works on both the browser and the server, operates with most markup, is independent of other frameworks, and has automatic language detection.
 - [tailwindcss](https://v2.tailwindcss.com/): A utility-first CSS framework packed with classes like flex, pt-4, text-center, and rotate-90, which allows you to apply any design directly within your markup.
 
+## Example
+
+https://github.com/yossydev/blog
+
 ## Getting Started
 
 This section explains how to set up your environment for local development and how to start writing your blog.
@@ -47,7 +51,3 @@ $ npm run create:post
 ```
 
 ![Running npm run create:post](https://github.com/yossydev/blog/assets/87469023/b110f12e-191b-4657-b729-34b7a8cf3a3e)
-
-
-
-
