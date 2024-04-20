@@ -26,7 +26,7 @@ const Posts: FC = () => {
     <div class="mt-16">
       <ul class="mt-10">
         {entries.map(([id, module]) => (
-          <li class="text-lg mt-2 md:mt-1">
+          <li key={id} class="text-lg mt-2 md:mt-1">
             <span class="tabular-nums tnum">{module.frontmatter.date}: </span>
             <br class="block md:hidden" />
             <a
