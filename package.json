@@ -20,7 +20,7 @@
     "hono": "^4.0.9",
     "honox": "^0.1.9",
     "remark-frontmatter": "^5.0.0",
-    "remark-mdx-frontmatter": "^4.0.0"
+    "remark-mdx-frontmatter": "^5.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.3",
